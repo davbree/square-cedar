@@ -24,7 +24,7 @@
         </div><!-- .post-subtitle -->
         {{ end }}
         <div class="post-content">
-          {{ .Content }}
+          {{ .Content | safeHTML }}
         </div><!-- .post-content -->
       </article><!-- .post -->
 
